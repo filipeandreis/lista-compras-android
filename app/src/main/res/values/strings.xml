@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lista de Compras</string>
+    <string name="listas">Listas de Compras</string>
+    <string name="produtos">Produtos</string>
+    <string name="modificar">Alterar</string>
+    <string name="salvar">Salvar</string>
+    <string name="cadastrarlista">Cadastrar lista</string>
+    <string name="cadastrarproduto">Cadastrar produto</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="descricao_do_produto">Descrição do produto</string>
+    <string name="nome_do_produto">Nome do produto</string>
+    <string name="nome_da_lista">Nome da lista</string>
+    <string name="txtNomeProduto">Adicionar produto</string>
+    <string name="txtNomeLista">Crie uma lista</string>
+</resources>

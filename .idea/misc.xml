@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Filipe/AppData/Local/Android/Sdk/platforms/android-29/data/res/layout/simple_list_item_1.xml" value="0.3625" />
+        <entry key="..\:/Users/Filipe/Downloads/ListaProdutos/app/src/main/res/drawable/shapes_formulario.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Filipe/Downloads/ListaProdutos/app/src/main/res/layout/activity_caralho.xml" value="0.3625" />
+        <entry key="..\:/Users/Filipe/Downloads/ListaProdutos/app/src/main/res/layout/activity_filhadaputa.xml" value="0.3625" />
+        <entry key="..\:/Users/Filipe/Downloads/ListaProdutos/app/src/main/res/layout/activity_formulario_listas.xml" value="0.3625" />
+        <entry key="..\:/Users/Filipe/Downloads/ListaProdutos/app/src/main/res/layout/activity_formulario_produtos.xml" value="0.3625" />
+        <entry key="..\:/Users/Filipe/Downloads/ListaProdutos/app/src/main/res/layout/activity_listas.xml" value="0.3625" />
+        <entry key="..\:/Users/Filipe/Downloads/ListaProdutos/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Filipe/Downloads/ListaProdutos/app/src/main/res/layout/activity_produtos.xml" value="0.33" />
+        <entry key="..\:/Users/Filipe/Downloads/Lista_Cadastro_Produtos-master/Lista_Cadastro_Produtos-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Filipe/Downloads/Lista_Cadastro_Produtos-master/Lista_Cadastro_Produtos-master/app/src/main/res/drawable/shapes_formulario.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Filipe/Downloads/Lista_Cadastro_Produtos-master/Lista_Cadastro_Produtos-master/app/src/main/res/layout/activity_formulario_produtos.xml" value="0.3625" />
+        <entry key="..\:/Users/Filipe/Downloads/Lista_Cadastro_Produtos-master/Lista_Cadastro_Produtos-master/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Filipe/Downloads/Lista_Cadastro_Produtos-master/Lista_Cadastro_Produtos-master/app/src/main/res/layout/activity_splash.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
