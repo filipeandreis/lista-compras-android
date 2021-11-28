@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,7 +27,7 @@ public class ProdutosActivity extends AppCompatActivity {
     ArrayList<Produtos> listview_produtos;
     Produtos produto;
     ArrayAdapter<Produtos> adapter;
-    Integer listaId;
+    Listas listaSelecionada;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,10 @@ public class ProdutosActivity extends AppCompatActivity {
         setContentView(R.layout.activity_produtos);
 
         Intent intent = getIntent();
-        listaId = Integer.parseInt(intent.getSerializableExtra("listaid").toString());
+        listaSelecionada = (Listas) intent.getSerializableExtra("listaselecionada");
+
+        TextView titulo = findViewById(R.id.txtTitulo);
+        titulo.setText(listaSelecionada.getNomeLista().concat(" | ").concat(listaSelecionada.getData()));
 
         initFormulario();
 
@@ -42,7 +46,7 @@ public class ProdutosActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(ProdutosActivity.this, FormularioProdutos.class);
 
-                intent.putExtra("listaid", listaId);
+                intent.putExtra("listaid", listaSelecionada.getId());
 
                 startActivity(intent);
             }
@@ -55,7 +59,7 @@ public class ProdutosActivity extends AppCompatActivity {
 
                 Intent i = new Intent(ProdutosActivity.this, FormularioProdutos.class);
                 i.putExtra("produto-escolhido", produtoEscolhido);
-                intent.putExtra("listaid", listaId);
+                intent.putExtra("listaid", listaSelecionada.getId());
 
                 startActivity(i);
             }
@@ -101,7 +105,7 @@ public class ProdutosActivity extends AppCompatActivity {
 
     public void carregarProduto() {
         bdHelper = new Database(ProdutosActivity.this);
-        listview_produtos = bdHelper.getProdutos(listaId);
+        listview_produtos = bdHelper.getProdutos(listaSelecionada.getId());
         bdHelper.close();
 
         if (listview_produtos != null) {

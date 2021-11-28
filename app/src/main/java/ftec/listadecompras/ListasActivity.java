@@ -45,7 +45,7 @@ public class ListasActivity extends AppCompatActivity {
                 Listas listaEscolhida = (Listas) adapter.getItemAtPosition(position);
 
                 Intent intent = new Intent(ListasActivity.this, ProdutosActivity.class);
-                intent.putExtra("listaid", listaEscolhida.getId());
+                intent.putExtra("listaselecionada", listaEscolhida);
 
                 startActivity(intent);
             }
